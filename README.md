@@ -2,8 +2,8 @@
 
 ## Introduction
 
-###Adam Africa
-###ST10458049
+### Adam Africa
+### ST10458049
 
 This is a mobile weather application made to display average weekly temperatures.
 It also allows for a detailed view of daily temperature and conditions. This application
