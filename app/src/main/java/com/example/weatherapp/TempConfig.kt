@@ -35,10 +35,20 @@ fun pushTempTonList(sharedPreferences: SharedPreferences): List<Int>{
 
 }
 
-fun addTempAndDay(input: Int, sharedPreferences: SharedPreferences){
+fun  addTempAndDay (input: Int, day: Int, sharedPreferences: SharedPreferences){
 
     var list = pushTempTonList(sharedPreferences)
-
+    var i = 0
+    while(i != day){
+        if(list[i] == null){
+            list.toMutableList().add(0)
+            val prefsEditor: SharedPreferences.Editor = sharedPreferences.edit()
+            val gson = Gson()
+            val json = gson.toJson(list)
+            prefsEditor.putString("Temps", json)
+            prefsEditor.apply()
+        }
+    }
     if(input != null){
 
         list.toMutableList().add(input)
