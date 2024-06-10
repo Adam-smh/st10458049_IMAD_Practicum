@@ -11,4 +11,7 @@ https://www.figma.com/design/TldDsCMbkxUPVPlFFjR116/weather-app?node-id=0-1&t=8i
 
 1. Clone repository
 
-   ````git clone {repo link}````
+   ```sh
+   git clone https://github.com/Adam-smh/st10458049_IMAD_Practicum.git
+   cd st10458049_IMAD_Practicum
+   ```
