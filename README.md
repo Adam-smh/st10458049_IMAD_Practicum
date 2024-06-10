@@ -10,6 +10,4 @@ https://www.figma.com/design/TldDsCMbkxUPVPlFFjR116/weather-app?node-id=0-1&t=8i
 ## How to run using Android studio
 
 1. Clone repository
-   ````
-git clone {repo link}
-````
+   ````git clone {repo link}````
